@@ -53,6 +53,22 @@
                 han apoyado la máquina virtual proporcionada por el proyecto YARV, que se fusionó en el árbol de código 
                 fuente de Ruby el 31 de diciembre de 2006, y se dio a conocer como Ruby 1.9
             </p>
+
+            <p>
+                Todas las instancias de una pila de Linux tienen instalado Ruby.
+                AWS OpsWorks Stacks instala un paquete de Ruby en cada instancia,
+                que se utiliza para ejecutar las recetas de Chef y el agente de instancias.
+                AWS OpsWorks Stacks determina la versión de Ruby basándose en la versión de Chef que la pila está 
+                ejecutando. No intente modificar esta versión, ya que podría deshabilitar el agente de instancia.
+                AWS OpsWorks Stacks no instala un ejecutable de aplicación Ruby en las pilas de Windows. 
+                El cliente Chef 12.2 incluye Ruby 2.0.0 p451, pero el ejecutable de Ruby no se añade a la variable de 
+                entorno PATH de las instancias. Si desea utilizar este ejecutable para ejecutar código Ruby, se encuentra 
+                en \opscode\chef\embedded\bin\ruby.exe, en la unidad de Windows.
+                En la tabla siguiente se resumen las versiones Ruby de AWS OpsWorks Stacks. 
+                La versiones Ruby de aplicación disponibles también dependen del sistema operativo de la instancia. 
+                Para obtener más información, incluidas las versiones de parches disponibles
+            </p>
+            
             <audio controls> 
 				<source src="multimedia/historia.mp3" type="audio/mp3">
             </audio>
