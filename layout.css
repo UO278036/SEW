@@ -76,6 +76,11 @@
         footer img{
             padding: 0.8em;
         }
+        /* Especificidad -> (0,0,2) */
+        main table{
+            size: 60%;
+        }
+
         /* Especificidad -> (0,0,3) */
         main section img{
         
