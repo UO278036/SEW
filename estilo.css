@@ -1,0 +1,109 @@
+    
+    /**
+        Paleta de colores
+        #353535   negro
+        #3C6E71   verde
+        #FFFFFF   blanco
+        #D9D9D9   gris
+        #284B63   azul oscuro
+    */
+    
+    /* Especificidad -> (0,0,1) */
+    body {    
+        color: #353535;
+        background-color:#D9D9D9;
+        line-height: 1.4;
+
+        font: 1.4em Palatino,serif ;
+        border-radius: 1em;
+        }
+    /* Especificidad -> (0,0,1) */
+    header {
+        color: white;
+        background-color:#284B63;    
+        margin-bottom: 0.1em;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-radius: 0.1em;
+        border-width: 0.5em;
+    }
+    /* Especificidad -> (0,0,1) */
+    main{         
+        color: #353535;
+        background-color:#D9D9D9;
+        grid-auto-flow: column;
+        border-radius: 1em;                  
+    }
+    /* Especificidad -> (0,0,1) */
+    footer{
+                
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-radius: 0.75em;
+
+        background-color: #284B63;
+        color: black;              
+    }
+    /* Especificidad -> (0,0,1) */
+    h1{
+        color: white;
+        background-color: #284B63;
+        text-align: center;
+        font-size: xx-large;
+    }
+    /* Especificidad -> (0,0,1) */
+    h2{
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-radius: 0.45em;  
+
+        color: black;
+        background-color:#284B63;
+    }
+    section{
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-radius: 0.45em;
+        border-width: 0.2em;
+
+        color: black;
+        background-color:#c6c6c6;
+    }
+
+    /* Especificidad -> (0,0,1) */
+    nav{
+        text-align: center;
+        background-color: #353535;
+
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        border-radius: 0.1em;
+        border-width: 0.5em;   
+    }
+
+    nav a{
+        color: white;
+    }
+            
+        /* Especificidad -> (0,0,2) */
+    main table, th,td{
+        border-width: 0.25em;
+        border-radius: 0.1em;
+        border-style: solid;
+        border-color: black;  
+    }
+    /* Especificidad -> (0,0,3) */
+    main table caption{
+        color: black;
+        font-size: 1.5em;
+    }
+    /* Especificidad -> (0,0,3) */
+    main table th{
+        background-color: #284B63;
+        color: white;
+    }
+    /* Especificidad -> (0,0,3) */
+    main table td{
+        background-color: white;
+        color: black;
+    }

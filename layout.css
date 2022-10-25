@@ -1,0 +1,96 @@
+    
+    /**
+        Paleta de colores
+        #353535   negro
+        #3C6E71   verde
+        #FFFFFF   blanco
+        #D9D9D9   gris
+        #284B63   azul oscuro
+    */
+    
+        /* Especificidad -> (0,0,1) */
+        body {    
+            display: grid;
+            row-gap: 0.2em;  
+            grid-template-areas: 
+            "header"
+            "nav"
+            "main"
+            "footer";
+            
+        }   
+        /* Especificidad -> (0,0,1) */
+        header {
+            grid-area: header;
+            width: 99%;
+        }
+        /* Especificidad -> (0,0,1) */
+        h1, h2{
+            width: 99%;
+        }
+        /* Especificidad -> (0,0,1) */
+        section{
+            margin-top: 0.5em;
+            padding: 0.4em;
+            width: 99%;
+        }
+        /* Especificidad -> (0,0,1) */
+        p{
+            margin-left: 1%;
+        }
+
+        /* Especificidad -> (0,0,1) */
+        main{
+            grid-area: main;
+            padding: 0.1;                 
+        }
+
+        /* Especificidad -> (0,0,2) */
+        main table, th,td{
+            padding: 1em;
+            margin: 0.5em;  
+        }
+
+        footer{
+            grid-area: footer;
+            display: inline;
+            padding: 0.1em;
+            margin-top: 0.5em;
+        }
+
+        nav{
+            grid-area: nav;
+            width: 99%;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        nav a{
+            margin-top: 1.5em;
+            margin-bottom: 1.5em;
+        }
+
+        /* Especificidad -> (0,0,2) */
+        footer img{
+            padding: 0.8em;
+        }
+        /* Especificidad -> (0,0,3) */
+        main section img{
+        
+            max-width: 25%;
+            height: auto;
+        }
+         /* Especificidad -> (0,0,3) */
+        main section video{
+            padding: 0.8em;
+            max-width: 30%;
+            height: auto;
+        }
+        /* Especificidad -> (0,0,3) */
+        main section audio{
+            max-width: 80%;
+            height: 3em;
+        }
+

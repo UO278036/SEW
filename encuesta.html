@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+
+    <!--Metadatos de los documentos HTML5-->
+    <meta name ="author" content ="Raúl Fernández España" />
+    <meta name ="description" content ="Encuesta sobre diferentes lenguajes de programación" />
+    <meta name ="keywords" content ="Ruby, Programación, Encuesta, Informatica" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <title>RUBY</title>
+        
+    <link rel="stylesheet" type="text/css" href="estilo.css" /> 
+    <link rel="stylesheet" type="text/css" href="layout.css" /> 
+
+</head>
+
+<body>
+    
+    <header>
+        <h1>RUBY</h1>
+    </header>
+
+    <nav>
+        <a title="Inicio" href="index.html" accesskey="I" tabindex="1"> Inicio </a>
+        <a title="Historia" href="historia.html" accesskey="H" tabindex="2"> Historia </a>
+        <a title="Usos" href="usos.html" accesskey="U" tabindex="3"> Usos </a>
+        <a title="Encuesta" href="encuesta.html" accesskey="E" tabindex="4"> Encuesta </a>
+	</nav>
+
+    <main>
+        <section>
+            <h2>Encuestra sobre desarrollo</h2>
+            <p>Le rogamos que responda a esta breve encuesta para poder analizar las preferencias de nuestros lectores desarrolladores.</p>
+            
+            <fieldset>
+                <legend> Lenguaje favorito</legend>
+                <p> <label for="jav">Java:</label> <input id="jav" type="radio" /> </p>
+                <p> <label for="rub">Ruby:</label> <input id="rub" type="radio" /> </p>
+                <p> <label for="pyt">Python:</label> <input id="pyt" type="radio" /> </p>
+            </fieldset>
+
+            <fieldset>
+                <legend> Metodologia</legend>
+                <p> <label for="obj">Objetos:</label> <input id="obj" type="radio" /> </p>
+                <p> <label for="fun">Funcional:</label> <input id="fun" type="radio" /> </p>
+                <p> <label for="refl">Reflexiva:</label> <input id="refl" type="radio" /> </p>
+            </fieldset>
+
+            <fieldset>
+                <legend> IDE </legend>
+                <p> <label for="net">NetBeans:</label> <input id="net" type="checkbox" /> </p>
+                <p> <label for="ecl">Eclipse:</label> <input id="ecl" type="checkbox" /> </p>
+                <p> <label for="int">IntellIJ:</label> <input id="int" type="checkbox" /> </p>
+            </fieldset>
+            <fieldset>
+                <legend> Datos personales </legend>
+                <p> <label>Nombre: </label><input id="nam" type="text" placeholder="Escriba su nombre" /></p>
+                <p> <label for="pas">Contraseña:</label> <input id="pas" type="password" placeholder="Escriba su contraseña" /> </p>
+                <p> <label for="tel">Telefono:</label> <input id="tel" type="tel" placeholder="Escriba su telefono"/> </p>
+                <p> <label for="em">Email:</label> <input id="em" type="email" placeholder="Escriba su email"/> </p>
+            </fieldset> 
+        
+            <p>Muchas gracias por responder la encuesta, cuando terminos la encuesta enviaremos la información al correo dado</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Por Raúl Fernández España, UO278036</p>
+        <img src="images/HTML5.png" alt=" HTML5 Válido!" />
+        <img src="images/CSS3.png"  alt="CSS Válido!"  />
+        <img src="images/ruby.png"  alt="Ruby on Rails!"  />
+    </footer>
+</body>
+
+</html>
