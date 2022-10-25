@@ -60,7 +60,7 @@
         color: black;
         background-color:#4e7c9c;
     }
-    section{
+    section, article{
         border-style: solid;
         border-color: rgb(0, 0, 0);
         border-radius: 0.45em;
