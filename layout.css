@@ -42,7 +42,7 @@
         /* Especificidad -> (0,0,1) */
         main{
             grid-area: main;
-            padding: 0.1;                 
+            padding: 0.1em;                 
         }
 
         /* Especificidad -> (0,0,2) */
@@ -50,14 +50,14 @@
             padding: 1em;
             margin: 0.5em;  
         }
-
+        /* Especificidad -> (0,0,1) */
         footer{
             grid-area: footer;
             display: inline;
             padding: 0.1em;
             margin-top: 0.5em;
         }
-
+        /* Especificidad -> (0,0,1) */
         nav{
             grid-area: nav;
             width: 99%;
@@ -66,7 +66,7 @@
             flex-direction: row;
             flex-wrap: wrap;
         }
-
+        /* Especificidad -> (0,0,2) */
         nav a{
             margin-top: 1.5em;
             margin-bottom: 1.5em;
@@ -75,10 +75,6 @@
         /* Especificidad -> (0,0,2) */
         footer img{
             padding: 0.8em;
-        }
-        /* Especificidad -> (0,0,2) */
-        main table{
-            size: 60%;
         }
 
         /* Especificidad -> (0,0,3) */
