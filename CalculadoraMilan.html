@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta name = "author" content = "Raúl Fernández España"/>
+        <meta name = "keywords" content = "Calculadora,Operaciones,Calculos"/>
+        <meta name = "description" content = "Calculadora Milan"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
+        <title>Calculadora Milan</title>
+
+        <script src="CalculadoraMilan.js"> </script>
+        <link rel="stylesheet" type="text/css" href="CalculadoraMilan.css" />
+    </head>
+    <body>
+        <section>
+        <header>
+            <h1>Calculadora Milan</h1>
+        </header>
+
+        <form>
+            <label for="pantalla"> <strong>MILAN</strong> </label>
+            <input id="pantalla" type="text" value="0" disabled />
+
+            <input type="button" value="ON/C" onClick = "CALC.borrar()" />
+            <input type="button" value="CE" onClick = "CALC.borrarPantalla()" />
+            <input type="button" value="+/-" onClick = "CALC.masMenos()" />
+            <input type="button" value="√" onClick = "CALC.raiz()" />
+            <input type="button" value="%" onClick = "CALC.porcentaje()" />
+
+            <input type="button" value="7" onClick = "CALC.digitos(7)" />
+            <input type="button" value="8" onClick = "CALC.digitos(8)" />
+            <input type="button" value="9" onClick = "CALC.digitos(9)" />
+            <input type="button" value="x" onClick = "CALC.multiplicacion()" />
+            <input type="button" value="÷" onClick = "CALC.division()" />
+
+            <input type="button" value="4" onClick = "CALC.digitos(4)" />
+            <input type="button" value="5" onClick = "CALC.digitos(5)" />
+            <input type="button" value="6" onClick = "CALC.digitos(6)" />
+            <input type="button" value="-" onClick = "CALC.resta()" />
+            <input type="button" value="Mrc" onClick = "CALC.Mrc()" />
+
+            <input type="button" value="1" onClick = "CALC.digitos(1)" />
+            <input type="button" value="2" onClick = "CALC.digitos(2)" />
+            <input type="button" value="3" onClick = "CALC.digitos(3)" />
+            <input type="button" value="+" onClick = "CALC.suma()" />
+            <input type="button" value="M-" onClick = "CALC.mMenos()" />
+
+            <input type="button" value="0" onClick = "CALC.digitos(0)" />
+            <input type="button" value="." onClick = "CALC.punto()" />
+            <input type="button" value="=" onClick = "CALC.igual()" />
+            <input type="button" value="M+" onClick = "CALC.mMas()" />
+        </form>
+        <footer>
+            <p>
+                <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                    <img style="border:0;width:88px;height:31px"
+                        src="http://jigsaw.w3.org/css-validator/images/vcss"
+                        alt="¡CSS Válido!" />
+                </a>
+            </p>
+        </footer>
+    </section>
+    </body>
+</html>
